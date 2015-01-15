@@ -1,0 +1,35 @@
+{
+  "name": "browserify-html-minifier",
+  "version": "0.0.0",
+  "description": "Browserify transform to minify and include html partials in your bundle.",
+  "homepage": "http://github.com/bassettsj/browserify-hmtl-minifier",
+  "author": {
+    "name": "Steven Bassett",
+    "email": "steven.j.bassett@gmail.com",
+    "url": "http://bassettsj.me"
+  },
+  "repository": "bassettsj/browserify-html-minifier",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "browserify-html-minifier",
+    "browserify",
+    "html-minifier"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^1.0.0",
+    "grunt-mocha-cli": "^1.11.0",
+    "jshint-stylish": "^1.0.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
